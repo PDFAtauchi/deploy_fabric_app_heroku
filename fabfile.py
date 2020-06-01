@@ -7,9 +7,8 @@ from fabric.colors import cyan, green
 from fabric.operations import prompt
 from fabric.contrib.files import append, exists
 
-
 current_dir = os.getcwd()
-env.project_name = 'deploy_polls_simple'
+env.project_name = 'deploy-polls-simple'
 env.environment = 'prod'
 env.branch = 'master'
 env.repo_project = 'https://github.com/PDFAtauchi/deploy_fabric_app_heroku.git'
