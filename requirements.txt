@@ -1,4 +1,4 @@
-Django==2.2.12
+Django==2.2.13
 setuptools==46.2.0
 psycopg2==2.8.5
 whitenoise==5.0.1
